@@ -27,9 +27,10 @@ gem 'jquery-rails'
 gem 'bootstrap-social-rails', '~> 4.12'
 
 # Authenticatie met devise
-
 gem 'devise'
 
+# File upload met PaperClip
+gem 'paperclip', '~> 5.1'
 # NOTE: The sass-rails gem is included with new Rails applications by default.
 #       Please make sure that it is not already in your Gemfile before uncommenting it.
 # gem 'sass-rails'

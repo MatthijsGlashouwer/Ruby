@@ -1,0 +1,37 @@
+Die :styles kan je zelf bepalen natuurlijk                        
+Plus je moet een ding toevoegen aan je model                        
+Dus daarvoor moet je een migratie schrijven                        
+rails generate paperclip user avatar                        
+Zoiets                        
+kan ook zijn rails generate paperclip folder image                        
+Zij gebruiken 'avatar' omdat ze ervan uit gaan dat diegene een avatarplaatje gebruikt                        
+Dus die moet je dan gewoon vervangen door 'image' overal
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+LARAVEL
+
+
+
+Kijk naar het systeem en maak een model
+
+zet jezelf op admin
+
+Onderzoeken en probeer een eigen branch aan te maken 
+
+
