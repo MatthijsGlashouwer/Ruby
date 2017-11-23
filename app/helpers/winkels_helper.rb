@@ -1,0 +1,2 @@
+module WinkelsHelper
+end

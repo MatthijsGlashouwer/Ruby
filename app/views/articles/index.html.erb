@@ -1,25 +1,27 @@
+<div class="container">
+<div class="col-sm-12">
 <div class="panel panel-default">
-  <h1>Overzicht folders beheer</h1>
-  <div class="panel-body">
-    <%= link_to 'New Folder', new_article_path %>
-    <br></br>
-    <table>
-      <tr>
-        <th>Title</th>
-        <th>Text</th>
-      </tr>
-     
-      <% @articles.each do |article| %>
-        <tr>
-          <td><%= article.title %></td>
-          <td><%= article.text %></td>
-          <td><%= link_to 'Bekijk', article_path(article) %></td>
-          <td><%= link_to 'Edit', edit_article_path(article) %></td>
-          <td><%= link_to 'Delete', article_path(article),
-                  method: :delete,
-                  data: { confirm: 'Are you sure?' } %></td>
-        </tr>
-      <% end %>
-    </table>
+  <div class="panel-heading">Winkels overzicht</div>
+  <div class="panel-body"><%= link_to 'New Folder', new_article_path %></div>
+</div>
+</div>    
+  <div class="row">
+    <div class="col-sm-12">
+    <% @articles.each do |article| %>
+    <div class="col-sm-4">
+      <div class="panel panel-default">
+        <div class="panel-heading"><%= article.title %></div>
+        <div class="panel-body"><img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image"></div>
+        <div class="panel-footer"><%= link_to 'Bekijken', article_path(article), class: 'btn btn-primary' %>
+        <%= link_to 'Remove', article_path(article), class: 'btn btn-primary', method: :delete, data: {confirm: 'Are you sure?'} %>
+        </div>
+      </div>
+    </div>
+    <% end %>
   </div>
 </div>
+</div>
+
+
+
+  

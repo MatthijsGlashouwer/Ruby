@@ -12,22 +12,28 @@ gem 'rails', '~> 5.1.3'
 gem 'pg'
 # Use Puma as the app server
 gem 'puma', '~> 3.7'
-# Use SCSS for stylesheets
-gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
 
 # Bootstrap
+
+gem 'bootstrap-sass', '~> 3.3.7'
+gem 'sass-rails', '>= 3.2'
 gem 'font-awesome-rails', '~> 4.7', '>= 4.7.0.2'
-gem 'bootstrap-sass', '3.3.7'
 gem 'autoprefixer-rails'
 gem 'jquery-rails'
 gem 'bootstrap-social-rails', '~> 4.12'
 
 # Authenticatie met devise
 gem 'devise'
+#JS
+
+gem 'popper_js', '~> 1.12.3'
+
+#better error page
+gem 'better_errors', '~> 2.4'
 
 # File upload met PaperClip
 gem 'paperclip', '~> 5.1'
