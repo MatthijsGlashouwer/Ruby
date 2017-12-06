@@ -116,6 +116,8 @@ GEM
     mini_portile2 (2.3.0)
     minitest (5.10.3)
     multi_json (1.12.2)
+    mysql2 (0.4.10)
+    mysql2 (0.4.10-x64-mingw32)
     nio4r (2.1.0)
     nokogiri (1.8.1)
       mini_portile2 (~> 2.3.0)
@@ -128,8 +130,6 @@ GEM
       cocaine (~> 0.5.5)
       mime-types
       mimemagic (~> 0.3.0)
-    pg (0.21.0)
-    pg (0.21.0-x64-mingw32)
     popper_js (1.12.5)
     public_suffix (3.0.1)
     puma (3.11.0)
@@ -229,8 +229,8 @@ DEPENDENCIES
   font-awesome-rails (~> 4.7, >= 4.7.0.2)
   jbuilder (~> 2.5)
   jquery-rails
+  mysql2 (>= 0.3.18, < 0.5)
   paperclip (~> 5.1)
-  pg
   popper_js (~> 1.12.3)
   puma (~> 3.7)
   rails (~> 5.1.3)

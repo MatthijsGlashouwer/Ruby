@@ -1,0 +1,62 @@
+
+
+
+
+
+
+user
+
+	Id INT(10)
+	name VARCHAR(255)
+	surname VARCHAR(255)
+	birthdate TIMESTAMP of DATE
+	email VARCHAR(255)
+	adress VARCHAR(255)
+	location VARCHAR(255)
+	phone	INT(20)
+	password VARCHAR(255)
+	role INT(11)
+	favorite
+
+
+tblfolderupload
+	Id INT(10)
+	image 
+	title VARCHAR(255)
+
+tblpost
+	Id INT(10)
+	title VARCHAR(255)
+	date DATE
+	post TEXT
+
+tblstores
+	Id INT(10)
+	title VARCHAR(255)
+	image 
+
+
+
+tblfolder
+
+	Id INT(10)
+	title VARCHAR(255)
+	expireDate DATE
+	category VARCHAR(255)
+	favorite BOOLEAN
+	image 
+
+
+tblaanbieding
+	Id INT(10)
+	category VARCHAR(255)
+	title VARCHAR(255)
+
+
+
+
+
+
+
+
+
